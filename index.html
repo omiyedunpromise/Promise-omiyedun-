@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Promise Omiyedun | Founder & CEO of X-ZITH TECHNOLOGY</title>
+
+  <meta name="description"
+        content="Official profile of Promise Omiyedun, Founder and CEO of X-ZITH TECHNOLOGY and creator of X-ZITH Learning Hub.">
+
+  <meta name="keywords"
+        content="Promise Omiyedun, X-ZITH TECHNOLOGY, X-ZITH Learning Hub, software developer, technology">
+
+  <meta name="author" content="Promise Omiyedun">
+
+  <!-- Open Graph -->
+  <meta property="og:title"
+        content="Promise Omiyedun | X-ZITH TECHNOLOGY">
+
+  <meta property="og:description"
+        content="Official profile of Promise Omiyedun, Founder and CEO of X-ZITH TECHNOLOGY.">
+
+  <meta property="og:type" content="profile">
+
+  <meta property="og:url"
+        content="https://omiyedunpromise.github.io/promise-omiyedun/">
+
+  <meta property="og:image"
+        content="https://omiyedunpromise.github.io/promise-omiyedun/images/promise-omiyedun.jpg">
+
+  <link rel="canonical"
+        href="https://omiyedunpromise.github.io/promise-omiyedun/">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Promise Omiyedun",
+    "url": "https://omiyedunpromise.github.io/promise-omiyedun/",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Promise Omiyedun",
+      "image": "https://omiyedunpromise.github.io/promise-omiyedun/images/promise-omiyedun.jpg",
+      "jobTitle": "Founder and CEO of X-ZITH TECHNOLOGY",
+      "birthDate": "2010-07-04",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Ondo State, Nigeria"
+      },
+      "nationality": {
+        "@type": "Country",
+        "name": "Nigeria"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "X-ZITH TECHNOLOGY"
+      }
+    }
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: linear-gradient(135deg, #071a52, #0066ff);
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #071a52, #0077ff);
+      color: white;
+    }
+
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid white;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 22px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 50px auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #071a52;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .info-card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .info-card h3 {
+      color: #0066ff;
+      margin-bottom: 8px;
+    }
+
+    .project-card {
+      background: white;
+      margin-top: 25px;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 25px;
+    }
+
+    .project-content h3 {
+      color: #071a52;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background: #0066ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #004dcc;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 30px 20px;
+      background: #071a52;
+      color: white;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero h2 {
+        font-size: 18px;
+      }
+
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .project-card img {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">PROMISE OMIYEDUN</div>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div>
+
+      <!-- Replace this image with your actual photo -->
+      <img
+        src="images/promise-omiyedun.jpg"
+        alt="Promise Omiyedun"
+        class="profile-photo"
+      >
+
+      <h1>Promise Omiyedun</h1>
+
+      <h2>Founder & CEO of X-ZITH TECHNOLOGY</h2>
+
+      <p>
+        Technology creator and founder of X-ZITH TECHNOLOGY,
+        focused on building digital products, educational technology
+        and innovative software solutions.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="container" id="about">
+
+    <h2 class="section-title">About Promise Omiyedun</h2>
+
+    <div class="info-grid">
+
+      <div class="info-card">
+        <h3>Full Name</h3>
+        <p>Promise Omiyedun</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Role</h3>
+        <p>Founder & CEO of X-ZITH TECHNOLOGY</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Location</h3>
+        <p>Ondo State, Nigeria</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Date of Birth</h3>
+        <p>4 July 2010</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- X-ZITH TECHNOLOGY -->
+  <section class="container" id="projects">
+
+    <h2 class="section-title">X-ZITH TECHNOLOGY</h2>
+
+    <div class="project-card">
+
+      <img
+        src="images/x-zith-technology.jpg"
+        alt="X-ZITH TECHNOLOGY"
+      >
+
+      <div class="project-content">
+
+        <h3>X-ZITH TECHNOLOGY</h3>
+
+        <p>
+          X-ZITH TECHNOLOGY is a technology brand focused on
+          developing digital products, software, educational
+          technology and innovative solutions.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- X-ZITH LEARNING HUB -->
+    <div class="project-card">
+
+      <img
+        src="images/x-zith-learning-hub.jpg"
+        alt="X-ZITH Learning Hub"
+      >
+
+      <div class="project-content">
+
+        <h3>X-ZITH Learning Hub</h3>
+
+        <p>
+          X-ZITH Learning Hub is an educational technology project 
+          created by Promise Omiyedun under X-ZITH TECHNOLOGY.
+        </p>
+
+        <a
+          class="button"
+          href="https://omiyedunpromise.github.io/X-zith-learning-hub-/"
+          target="_blank"
+        >
+          Visit X-ZITH Learning Hub
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 Promise Omiyedun
+    </p>
+
+    <p>
+      Founder & CEO — X-ZITH TECHNOLOGY
+    </p>
+
+  </footer>
+
+</body>
+</html>
